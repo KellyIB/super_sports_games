@@ -2,9 +2,9 @@ class Event
 
   attr_reader(:name, :ages)
 
-  def initialize(name, [])
+  def initialize(name, ages = [])
     @name = name
-    @ages = []
+    @ages = ages
   end
 
   def max_age
@@ -33,7 +33,7 @@ class Event
   end
 
   def standard_deviation_age
-    
+
     p standard_deviation_age.round(2)
   end
 
