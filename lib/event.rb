@@ -59,5 +59,4 @@ class Event
 
     p st_dev.round(2)
   end
-
 end
